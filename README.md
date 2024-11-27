@@ -27,11 +27,11 @@ Emotion Restaurant Recommend System(ERS)는
 ## 프로젝트 구조
 - 프론트엔드
   - 웹 서비스 : React 사용 
-  - 모바일 어플리케이션 : React 사용 (고민중)
+  - 모바일 어플리케이션 : React형식으로 제작한 웹에 웹뷰 형식으로 사용 / ReactNative 사용 및 연동
 
 - 백엔드
-  - 서버 프레임워크 : Flask 혹은 FastAPI 사용
-  - 통신 방식 : 미정
+  - 서버 프레임워크 : FastAPI
+  - 통신 방식 : RESTAPI
 
 - 머신러닝
     - 사용 모델 : KoBERT(NLP)
@@ -39,7 +39,7 @@ Emotion Restaurant Recommend System(ERS)는
   기능 : 감정 분석 , 감정에 따른 음식 추천, 음식에 따른 맛집 추천
 
 - Etc
-  - 사용 API : kakao Map
+  - 사용 API : KaKaoMAP API With Web
   - 클라우드 인프라 : Colab, AWS(혹은 GCP, OCI)
 
 ## 깃허브 기여 방법
@@ -63,13 +63,13 @@ Emotion Restaurant Recommend System(ERS)는
 
 ## 팀 구성
 - 이름 : 김영우
-  - 역할 : 캡스톤디자인 팀장, 백엔드 개발
+  - 역할 : 캡스톤디자인 팀장, 프론트 엔드
   
 - 이름: 구승율
-  - 역할: 백엔드 개발, 서버 구축, 
+  - 역할: 백엔드 개발, 서버 구축,  API활용 및 개발, API연동, 데이터셋 크롤링 및 전처리
 
 - 이름: 이인호
-  - 역할: 프론트 개발, API 활용 개발
+  - 역할: 백엔드 개발, API 활용 및 개발
 
 공통 : 머신러닝 모델 개발 및 , 데이터 수집 및 분석
 
