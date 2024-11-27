@@ -24,6 +24,81 @@ Emotion Restaurant Recommend System(ERS)는
 - 해당 음식에 관한 맛집을 자신의 위치를 기반으로 추천합니다.
 - 사용자 인터페이스(UI/UX)
 
+## 프로젝트 파일 구조
+```
+📦backend
+ ┣ 📂model
+ ┃ ┣ 📜food_emotion.xlsx
+ ┃ ┣ 📜model_statedict.pkl
+ ┃ ┣ 📜ncf_model_with_data.pkl
+ ┃ ┗ 📜recommendation_system.pkl
+ ┃ ┣ 📂__pycache__
+ ┃ ┃ ┗ 📜ncf_recommend.cpython-37.pyc
+ ┃ ┣ 📜api_request.py
+ ┃ ┣ 📜ncf_recommend.py
+ ┣ 📂__pycache__
+ ┃ ┣ 📜cbf.cpython-37.pyc
+ ┃ ┣ 📜inference_nsmc.cpython-312.pyc
+ ┃ ┣ 📜main.cpython-312.pyc
+ ┃ ┣ 📜main.cpython-37.pyc
+ ┃ ┣ 📜model.cpython-312.pyc
+ ┃ ┣ 📜model.cpython-37.pyc
+ ┃ ┗ 📜ncf_recommend.cpython-37.pyc
+ ┣ 📜.gitattributes
+ ┣ 📜.gitignore
+ ┣ 📜cbf.py
+ ┣ 📜index.html
+ ┣ 📜main.py
+ ┣ 📜model.py
+ ┣ 📜requirements.txt
+ ┣ 📜test.py
+ ┗ 📜train_data.csv
+📦frontend
+ ┣ 📂public
+ ┃ ┣ 📜angry.png
+ ┃ ┣ 📜chicken.png
+ ┃ ┣ 📜cool.png
+ ┃ ┣ 📜favicon.ico
+ ┃ ┣ 📜gg.png
+ ┃ ┣ 📜happy.png
+ ┃ ┣ 📜index.html
+ ┃ ┣ 📜laugh.png
+ ┃ ┣ 📜leave.png
+ ┃ ┣ 📜logo192.png
+ ┃ ┣ 📜logo512.png
+ ┃ ┣ 📜manifest.json
+ ┃ ┣ 📜robots.txt
+ ┃ ┣ 📜sad.png
+ ┃ ┣ 📜scare.png
+ ┃ ┣ 📜sick.png
+ ┃ ┣ 📜smiling.png
+ ┃ ┣ 📜suprised.png
+ ┃ ┣ 📜title.svg
+ ┃ ┣ 📜wink.png
+ ┃ ┣ 📜되돌아가기.png
+ ┃ ┗ 📜새로고침.png
+ ┣ 📂src
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📜Home.css
+ ┃ ┃ ┣ 📜Home.js
+ ┃ ┃ ┣ 📜LastPage.css
+ ┃ ┃ ┣ 📜LastPage.js
+ ┃ ┃ ┣ 📜NextPage.css
+ ┃ ┃ ┗ 📜NextPage.js
+ ┃ ┣ 📜App.css
+ ┃ ┣ 📜App.js
+ ┃ ┣ 📜App.test.js
+ ┃ ┣ 📜index.css
+ ┃ ┣ 📜index.js
+ ┃ ┣ 📜logo.svg
+ ┃ ┣ 📜reportWebVitals.js
+ ┃ ┗ 📜setupTests.js
+ ┣ 📜.gitignore
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┗ 📜README.md
+ ```
+
 ## 프로젝트 구조
 - 프론트엔드
   - 웹 서비스 : React 사용 
